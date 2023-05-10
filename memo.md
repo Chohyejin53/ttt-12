@@ -60,6 +60,8 @@ yarn -v 1.22.19
 
 ## eslintrc.cjs
 
+test
+
 ```
 rules: {
     'react-refresh/only-export-components': 'warn',
