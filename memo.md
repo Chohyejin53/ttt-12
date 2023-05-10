@@ -30,3 +30,32 @@ yarn -v 1.22.19
 >  echo "export PATH=\"$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin\"" >> ~/.zshrc
 
 [참고](https://ithub.tistory.com/50)
+
+## 커밋 & 푸시
+
+- `git status`
+- `git add .`
+- `git commit - m "test"`
+- `git push`
+
+## 실행
+
+- `yarn install` : yarn 설치
+- `yarn dev` : 5000번대로 로컬경로 열기
+
+## ESLint
+
+- ESLint 설치
+- 터미널에 `문제`에 문법오류가 나는 것 정상
+- `.eslintrc.cjs`은 기본 자바스크립트 유형의 모듈이라는 의미
+- `'eslint:recommended',` 삭제 (사용하지않을 것)
+
+- standard.js
+
+  - https://github.com/standard/standard
+  - https://standardjs.com/
+
+- 터미널 명령어 입력
+  `yarn add -D eslint-config-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-n`
+
+-
