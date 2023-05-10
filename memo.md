@@ -58,4 +58,15 @@ yarn -v 1.22.19
 - 터미널 명령어 입력
   `yarn add -D eslint-config-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-n`
 
--
+## eslintrc.cjs
+
+```
+rules: {
+    'react-refresh/only-export-components': 'warn',
+    'import/no-absolute-path': 'off',
+  },
+```
+
+## build
+
+`yarn build`
