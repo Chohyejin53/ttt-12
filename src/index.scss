@@ -1,14 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 $SQUARE_SIZE: 100px;
 
-* {
-  box-sizing: border-box;
-}
+// * {
+//   box-sizing: border-box;
+// }
 
-body {
-  font-family: sans-serif;
-  margin: 20px;
-  padding: 0;
-}
+// body {
+//   font-family: sans-serif;
+//   margin: 20px;
+//   padding: 0;
+// }
 
 .game {
   &.done {
@@ -45,11 +49,11 @@ body {
 .status {
   margin-bottom: 10px;
 }
-.game {
-  display: flex;
-  flex-direction: row;
-}
+// .game {
+//   display: flex;
+//   flex-direction: row;
+// }
 
-.game-info {
-  margin-left: 20px;
-}
+// .game-info {
+//   margin-left: 20px;
+// }
